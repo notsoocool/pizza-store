@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- Name: Omkar Khurana
+	 Student ID: 991607080
+	 Excercise : Forms-->
+<html lang="en">
+	<head>
+		<meta char="UTF-8">
+		<title>Order </title>
+		<style>
+			html, body { /* to set bg image and to set parameters for the whole page*/
+				height: 100rem;
+				max-width: 100%;
+				background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ),  url('../img/pizza6.jpg');
+			color : white;
+			}
+			body{
+				padding : 10rem;
+				margin : 10rem;
+				background-color: ;
+			}
+			header,div{
+				background-color: #fff;
+				background-color: rgba(255,255,255,0.3);
+				
+			}/*to set the colors for the anchor tag */
+			a:link {
+				color: red;
+			}
+			a:visited {
+				color: green;
+			}
+			a:hover {
+				color: hotpink;
+			}		
+			a:active {
+				color: blue;
+			}
+			figure{
+				width:200rem ;
+				height: 200rem;
+			}
+			table.pics{
+				  /*to set the pictures size */
+				position:absolute;
+				top:400rem;
+				width: 1330;
+				margin : 0rem ;
+				padding : 0rem;
+				align: left;
+			}
+		</style>
+	</head>
+	<body>
+	<header> 
+			<small><time> 10:39 am </time></small> 
+			<small>Place : New Delhi, India.</small>
+		</header>
+		<div>
+			<table align="center" border="1" cellspacing="0" width="1331">
+				<tr>
+					<th><h1><em>Order</em></h1></th>
+				</tr>
+			</table>
+		</div>
+		<nav>
+		<table cellspacing="0" border="1" width="1330">
+			<tr> 
+				<th>
+					<a href="../index.html"> Home </a>
+				</th>	
+				<th> 
+					<a href="Menu.html"> Menu </a>
+				</th>	
+				<th>
+					<a href="Deals.html"> Deals </a>
+				</th>
+				<th>
+					<a href="Order.html"> Order </a>
+				</th>
+				<th>	
+					<a href="About_us.html"> About us </a>
+				</th>	
+
+			</tr>
+		</table>		
+		</nav>
+		<br><br>
+		<form>
+			
+			<label>Choose your Pizza</label>
+			<Select name="Pizza" size="1">
+				<option value="Margherita"> Margherita</option>
+				<option value="Double Cheese Margherita"> Double Cheese Margherita</option>
+				<option value="Corn and Onion"> Corn and Onion</option>
+				<option value="Hawaiian"> Hawaiian</option>
+				<option value="New York Pizza Slice"> New York Pizza Slice</option>
+				<option value="Deep Dish"> Deep Dish</option>
+				<option value="Pasta Pizza"> Pasta Pizza</option>
+			</select><br>	
+		
+			
+			<label> Enter your Name </label><br>
+			<input id="name" type="text" placeholder="Enter Name" maxlength="20"> <br>
+			
+			<label> Enter your Email </label>
+			<input id="email" type="email" placeholder="Enter E-Mail" maxlength="30"> <br>
+
+			<label> Enter Email </label>
+			<input id="email" type="email" placeholder="Enter your E-mail" maxlength="30"/><br>
+			
+			<label> Enter Password </label>
+			<input id="passwd" type="password" placeholder="Enter your Password" maxlength="20"/><br>
+			
+			<label> Re-Enter Password </label>
+			<input id="passwd" type="password" placeholder="Repeat your Password" maxlength="20"/><br>
+		
+			<label> Enter MObile </label>
+			<input id="mobile" type="text" placeholder="Enter your Number" maxlength="10"/><br>
+			
+			<label> Enter you address </label>
+			<textarea></textarea><br>
+			
+			<label>Choose your Store</label>
+			<Select name="location" size="1">
+				<option value="Oakville"> Oakville</option>
+				<option value="Brampton"> Brampton</option>
+				<option value="Toronta"> Toronto</option>
+			</select><br>	
+		
+		</form>	
+		<table class="pics" width="1330" height="300">
+			<tr>
+				<td>
+					<figure>
+						<img src="../img/pizza1.jpg" width="350" height="350"/>
+					<figcaption> Pizza </figcaption>
+					</figure>
+				</td>
+				<td>
+					<figure>
+						<img src="../img/pizza2.jpg" width="350" height="350"/>
+					<figcaption> Pizza </figcaption>
+					</figure>
+				</td>
+				<td>
+					<figure>
+						<img src="../img/pizza3.jpg" width="350" height="350"/>
+					<figcaption> Pizza </figcaption>
+					</figure>
+				</td>
+				<td>
+					<figure>
+						<img src="../img/pizza4.jpg" width="350" height="350"/>
+					<figcaption> Pizza </figcaption>
+					</figure>
+				</td>
+			</tr>
+		</table>
+		<footer>
+			<address> Darien, Illinois, USA </address>
+		</footer>
+ 	</body>
+</html>	
